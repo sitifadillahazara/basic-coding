@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body {
+    background-color: #f8f7e0;
+}
+h1:hover {
+    opacity: 0.5;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #04334c;
+    font-family: "Alfa Slab One", cursive;
+    /* text-align: center; */
+    background: url("../img/zoo-blur.jpg") center no-repeat;
+    background-size: cover;
+    /* width: 500px; */
+    margin: 0 auto;
+    /* padding: 100px 0; */
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: .5s;
+}
+.animal-section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5faff;
+    border-radius: 12px;
+}
+
+h3 {
+    color: #2590bd;
+    font-family: "Alfa Slab One", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+ol {
+    margin-top: 40px;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    width: 50%;
+    list-style: none;
+     color: #38758e;
+    font-family: "Alfa Slab One", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;  
+}
+
+li a {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    overflow: hidden;
+    background-color: #91ccf9;
+}
+ol.source li a {
+    display: inline;
+    width: auto;
+    height: auto;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+li img {
+    /* width: 500px; */
+    width: 100%;
+}
+
+table,
+th,
+td {
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+    border-collapse: collapse
+}
+.table-section {
+    background-color: #f5faff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 12px;
+}
+/* Warna seluruh tabel */
+table {
+    background-color: #eaf6ff;
+    width: 100%;
+}
+/* Warna judul kolom */
+th {
+    background-color: #f8b5e4;
+    color: #0d5c3f;
+    padding: 8px;
+}
+/* Warna isi tabel */
+td {
+    background-color: #f5faff;
+    padding: 8px;
+}
+/* Warna tabel All animals can be visited every day, 09:00 - 17:00. */
+tr:last-child td {
+    background-color: #a4e8dd;
+    color: #a60074;
+}
+.form-section {
+    background-color: #f5faff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 12px;
+}
+.footer {
+    background-color: #f5faff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 12px;
+}
